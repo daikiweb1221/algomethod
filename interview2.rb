@@ -580,20 +580,20 @@
 # i = i.floor
 # p i
 
-array = (1..101).to_a
-result = []
-array.each do |i|
-  if i % 2 != 0
-    result << i
-  end
-end
+# array = (1..101).to_a
+# result = []
+# array.each do |i|
+#   if i % 2 != 0
+#     result << i
+#   end
+# end
 
-ans = []
-result.each do |j|
-  ans <<  j ** 3
-end
+# ans = []
+# result.each do |j|
+#   ans <<  j ** 3
+# end
 
-p ans.sum
+# p ans.sum
 
 # result = []
 
@@ -603,3 +603,26 @@ p ans.sum
 #   end
 # end
 # p result
+
+# a,b = gets.split.map(&:to_i)
+
+# puts (a * b) % 2 == 0 ? 'Even': 'Odd'
+
+# s = gets.to_i
+# s_array = s.to_s.split('')
+# s_array.map!(&:to_i)
+# count = 0
+# s_array.each do |i|
+#   if i == 1
+#     count += 1
+#   end
+# end
+
+# puts count
+
+# n = gets.to_i
+# a = gets.split.map(&:to_i)
+
+# 200.times do 
+#   end
+
