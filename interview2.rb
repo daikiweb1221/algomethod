@@ -623,6 +623,11 @@
 # n = gets.to_i
 # a = gets.split.map(&:to_i)
 
-# 200.times do 
+# 200.times do
 #   end
 
+# a = gets.split.map(&:to_i)
+
+# a.map! {|i| i /= 2}
+
+gets
