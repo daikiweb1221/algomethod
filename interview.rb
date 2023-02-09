@@ -148,13 +148,13 @@ curriculum_data = [
 # new_arg = arg.split(" ").map {|i| i.length}
 # p new_arg
 
-# array_data = [["らんてくん", 98],["カンノ", 23],["ファラオ", 57],["だいそん", 84],["ひさじゅ", 100]]
-# new_array = []
-# array_data.map do |name, points|
-#   new_array.push([points, name])
-# end
+array_data = [["らんてくん", 98],["カンノ", 23],["ファラオ", 57],["だいそん", 84],["ひさじゅ", 100]]
+new_array = []
+array_data.map do |name, points|
+  new_array.push([points, name])
+end
 
-# new_array.sort.reverse.each_with_index do  |value, index|
-#   puts "#{index + 1}位: #{value[1]}さん #{value[0]}点"
-# end
+new_array.sort.reverse.each_with_index do  |value, index|
+  puts "#{index + 1}位: #{value[1]}さん #{value[0]}点"
+end
 
