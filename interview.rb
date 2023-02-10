@@ -174,4 +174,30 @@ curriculum_data = [
 #   end
 # end
 
+
+
 # fizzbazz(n)
+
+# a = gets.split.map(&:to_i)
+# size = a.length
+
+# size.times do
+#   (size - 1).times do |j|
+#     if a[j] > a[j + 1]
+#       tmp = a[j]
+#       a[j] = a[j + 1]
+#       a[j + 1] = tmp
+#     end
+#   end
+# end
+# p a
+
+coins = [1, 5, 10, 50, 100, 500, 1000, 5000, 10000]
+money = gets.to_i
+result = {}
+coins.sort.reverse.each do |coin|
+    result[coin] =  money / coin
+    money = money % coin
+end
+
+p result.sort.to_h
