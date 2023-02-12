@@ -192,12 +192,12 @@ curriculum_data = [
 # end
 # p a
 
-coins = [1, 5, 10, 50, 100, 500, 1000, 5000, 10000]
-money = gets.to_i
-result = {}
-coins.sort.reverse.each do |coin|
-    result[coin] =  money / coin
-    money = money % coin
-end
+# coins = [1, 5, 10, 50, 100, 500, 1000, 5000, 10000]
+# money = gets.to_i
+# result = {}
+# coins.sort.reverse.each do |coin|
+#     result[coin] =  money / coin
+#     money = money % coin
+# end
 
-p result.sort.to_h
+# p result.sort.to_h
