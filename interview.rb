@@ -201,3 +201,43 @@
 # end
 
 # p result.sort.to_h
+
+
+# a = gets.split.map(&:to_i)
+# size = a.length
+
+# size.times do
+#   (size - 1).times do |j|
+#     if a[j] > a[j + 1]
+#       tmp = a[j]
+#       a[j] = a[j + 1]
+#       a[j + 1] = tmp
+#     end
+#   end
+# end
+
+# p a
+
+# n = gets.to_i
+# a = (1..n).to_a
+# a2 = (1..(n - 1)).to_a
+# result = []
+# a2.each do |i|
+#   a.each do |j|
+#     if i != j
+#       result.push([i,j])
+#     end
+#   end
+# end
+
+# p result
+
+# money = gets.to_i
+# coins =  [1, 5, 10, 50, 100, 500, 1000, 5000, 10000]
+# result = {}
+# coins.reverse.each do |coin|
+#   result[coin] = (money / coin)
+#   money %= coin
+# end
+
+# p result.to_a.reverse.to_h
